@@ -12,7 +12,8 @@ int main(int argc, char *argv[])
               << static_cast<void*>(argv[argc]) << '\n';
  
     /* ... */
-    console.log(123);
+    
+    system.out.print("LELELE");
  
     return argc == 3 ? EXIT_SUCCESS : EXIT_FAILURE; // optional return value
 }
